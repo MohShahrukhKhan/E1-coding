@@ -1,0 +1,36 @@
+Why String is immutable in java and what is the difference between String and String Builder?
+
+becouse if we want to Extend it it we show us no-change it look as its some ,whre we assign him 
+
+for ex;-
+String name="Moh Shahrukh khan"
+
+if we want to extand it 
+
+name.append("is student");
+
+if we print it
+
+they show as no-change
+   System.out.println(name)//moh shahrukh khan
+
+that was the reason we canb say that String is immutable.
+
+difference between String and String Builder
+
+both are use to assign the value of String but String is immutable and String Builder mutable we can extand 
+his value with help of some Method and they have some limition multi thred Enverment.
+
+methods of String class at least 5 with example.
+String name="shahrukh"
+name.Substring(2)//sh
+name.Substring(index,endIndex)
+
+name.Equals("shahrukh")//if give you boolean value
+
+"Moh shahrukh khan  ".trim()
+
+"Moh shahrukh".replace(index,value)//index=1,value=J-->Mjh Skhahrukh khan
+
+"moh shshrukh khan".toUppercase()//MOH SHAHRUKH KHAN
+"MOH SHAHRUKH KHAN"toLowwercase()moh shahrukh khan
