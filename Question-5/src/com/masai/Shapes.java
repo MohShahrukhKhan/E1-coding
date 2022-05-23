@@ -5,13 +5,14 @@ public class Shapes {
 	public Shapes() {
 		// TODO Auto-generated constructor stub
 	}
- Circle(int radius) {
+public void Circle(int radius) {
 	
 }
- Rectangle(int radius) {
+public void Rectangle(int radius) {
 	
 }
- Square(int radius) {
+public void Square(int radius) {
 	
 }
+
 }

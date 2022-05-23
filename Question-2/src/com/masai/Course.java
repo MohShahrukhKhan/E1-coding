@@ -1,5 +1,7 @@
 package com.masai;
 
+import java.util.Scanner;
+
 public class Course {
 int id;
 String name;
@@ -17,7 +19,15 @@ void displayCourseDetails(int courseId,String courseName,int courseFee) {
 static void authenticate(String username,String password) {
 	if(username=="Admin"&&password=="1234") {
 		Course cour=new Course();
-		cour.displayCourseDetails(21,"shahrukh",500);
+		Scanner input=new Scanner(System.in);
+		System.out.println("Enter id");
+		int courseId=input.nextInt();
+		System.out.println("Enter Name");
+		String courseName=input.next();
+		System.out.println("Enter Fee");
+		int courseFee=input.nextInt();
+		
+		cour.displayCourseDetails(courseId,courseName,courseFee);
 	}else {
 		System.out.println("Invalid Username or password");
 	}

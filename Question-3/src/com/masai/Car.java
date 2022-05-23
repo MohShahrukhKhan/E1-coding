@@ -1,9 +1,11 @@
 package com.masai;
 
 public class Car {
+	String model;
 
-	public Car() {
-		// TODO Auto-generated constructor stub
-	}
+	String companyName;
+	String Color;
+	Engine engine;
+	
 
 }
